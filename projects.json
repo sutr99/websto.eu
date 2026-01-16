@@ -1,0 +1,142 @@
+[
+  {
+    "name": "KeePassXC",
+    "tags": ["Password Manager", "Security", "Open Source"],
+    "description": "KeePassXC je bezpečný open source správce hesel, který umožňuje ukládat a spravovat hesla lokálně ve šifrované databázi.",
+    "github": "https://github.com/keepassx/keepassxc",
+    "web": "https://keepassxc.org",
+    "quickstart": [
+      "Stáhni a nainstaluj KeePassXC.",
+      "Vytvoř novou šifrovanou databázi.",
+      "Přidej své první položky (uživatelská jména a hesla).",
+      "Nastav master password a zálohu databáze.",
+      "Volitelně synchronizuj s cloudem přes bezpečné pluginy."
+    ]
+  },
+  {
+    "name": "VeraCrypt",
+    "tags": ["Disk Encryption", "Security", "Open Source"],
+    "description": "VeraCrypt umožňuje silné šifrování disků a složek, chrání citlivá data před neoprávněným přístupem a nabízí pokročilé šifrovací algoritmy.",
+    "github": "https://github.com/veracrypt/VeraCrypt",
+    "web": "https://www.veracrypt.fr",
+    "quickstart": [
+      "Stáhni a nainstaluj VeraCrypt.",
+      "Vytvoř nový šifrovaný kontejner.",
+      "Přidej soubory do kontejneru.",
+      "Připoj kontejner přes master password.",
+      "Pravidelně zálohuj šifrovaný kontejner."
+    ]
+  },
+  {
+    "name": "Bitwarden",
+    "tags": ["Password Manager", "Security", "Cloud", "Open Source"],
+    "description": "Bitwarden je open source správce hesel, který podporuje cloud i self-hosted řešení a nabízí synchronizaci mezi zařízeními.",
+    "github": "https://github.com/bitwarden",
+    "web": "https://bitwarden.com",
+    "quickstart": [
+      "Stáhni nebo zaregistruj účet na Bitwarden.",
+      "Vytvoř bezpečné master heslo.",
+      "Přidej své položky (uživatelská jména a hesla).",
+      "Synchronizuj mezi zařízeními.",
+      "Aktivuj dvoufázové ověření."
+    ]
+  },
+  {
+    "name": "Signal Desktop",
+    "tags": ["Secure Messaging", "Privacy", "Open Source"],
+    "description": "Signal Desktop poskytuje šifrovanou komunikaci mezi uživateli a synchronizuje zprávy s mobilní aplikací.",
+    "github": "https://github.com/signalapp/Signal-Desktop",
+    "web": "https://signal.org",
+    "quickstart": [
+      "Stáhni a nainstaluj Signal Desktop.",
+      "Spáruj s mobilní aplikací pomocí QR kódu.",
+      "Přidej kontakty a začni konverzovat.",
+      "Aktivuj bezpečnostní notifikace.",
+      "Pravidelně aktualizuj aplikaci."
+    ]
+  },
+  {
+    "name": "OpenVPN",
+    "tags": ["VPN", "Security", "Network", "Open Source"],
+    "description": "OpenVPN poskytuje bezpečné VPN připojení, chrání data při komunikaci přes veřejné sítě a podporuje širokou škálu platforem.",
+    "github": "https://github.com/OpenVPN/openvpn",
+    "web": "https://openvpn.net",
+    "quickstart": [
+      "Stáhni a nainstaluj OpenVPN klienta.",
+      "Importuj konfigurační soubor od VPN poskytovatele.",
+      "Připoj se k serveru.",
+      "Ověř připojení a bezpečnostní certifikáty.",
+      "Volitelně nastav automatické připojení."
+    ]
+  },
+  {
+    "name": "WireGuard",
+    "tags": ["VPN", "Security", "Network", "Open Source"],
+    "description": "WireGuard je moderní a rychlý VPN protokol, který nabízí jednoduchou konfiguraci a vysokou bezpečnost.",
+    "github": "https://github.com/WireGuard",
+    "web": "https://www.wireguard.com",
+    "quickstart": [
+      "Nainstaluj WireGuard klienta.",
+      "Naimportuj konfigurační profil.",
+      "Aktivuj připojení.",
+      "Testuj rychlost a stabilitu.",
+      "Volitelně nastav automatické spouštění."
+    ]
+  },
+  {
+    "name": "Tor Browser",
+    "tags": ["Anonymity", "Privacy", "Security", "Open Source"],
+    "description": "Tor Browser umožňuje anonymní prohlížení internetu, chrání identitu a obchází geo-blokace.",
+    "github": "https://github.com/torproject/tor-browser",
+    "web": "https://www.torproject.org",
+    "quickstart": [
+      "Stáhni Tor Browser.",
+      "Spusť instalaci a otevři prohlížeč.",
+      "Připoj se k síti Tor.",
+      "Začni anonymně prohlížet web.",
+      "Pravidelně aktualizuj pro bezpečnost."
+    ]
+  },
+  {
+    "name": "Wireshark",
+    "tags": ["Network Analysis", "Security", "Open Source"],
+    "description": "Wireshark je nástroj pro analýzu síťového provozu, umožňuje zachytávat a zkoumat pakety, detekovat problémy a analyzovat bezpečnostní hrozby.",
+    "github": "https://github.com/wireshark/wireshark",
+    "web": "https://www.wireshark.org",
+    "quickstart": [
+      "Nainstaluj Wireshark.",
+      "Vyber síťové rozhraní pro zachytávání paketů.",
+      "Spusť capture.",
+      "Analyzuj paketový provoz a filtry.",
+      "Ulož nebo exportuj výsledky analýzy."
+    ]
+  },
+  {
+    "name": "Nmap",
+    "tags": ["Network Security", "Scanning", "Open Source"],
+    "description": "Nmap je nástroj pro skenování sítí a bezpečnostní audit, pomáhá identifikovat otevřené porty a možné zranitelnosti.",
+    "github": "https://github.com/nmap/nmap",
+    "web": "https://nmap.org",
+    "quickstart": [
+      "Stáhni a nainstaluj Nmap.",
+      "Otevři terminál a zadej příkaz pro skenování IP / domény.",
+      "Analyzuj výsledky otevřených portů a služeb.",
+      "Použij volitelné skripty Nmap pro podrobnější audit.",
+      "Ulož reporty pro dokumentaci."
+    ]
+  },
+  {
+    "name": "Cryptomator",
+    "tags": ["Cloud Encryption", "Security", "Open Source"],
+    "description": "Cryptomator šifruje soubory uložené v cloudu, aby byla data bezpečná i při úniku cloudového úložiště.",
+    "github": "https://github.com/cryptomator/cryptomator",
+    "web": "https://cryptomator.org",
+    "quickstart": [
+      "Nainstaluj Cryptomator.",
+      "Vytvoř nový šifrovaný vault.",
+      "Přidej soubory do vaultu.",
+      "Připoj vault k cloudovému úložišti.",
+      "Používej šifrovaný vault k bezpečnému ukládání souborů."
+    ]
+  }
+]
