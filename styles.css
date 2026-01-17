@@ -43,3 +43,39 @@ body {
       font-size: 14px;
       color: #666;
     }
+    /* --- KATALOG APLIKACÍ --- */
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.app-box {
+  display: block;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.app-box:hover {
+  border-color: #999;
+  background-color: #f6f6f6;
+}
+
+.app-box h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-family: Consolas, monospace;
+}
+
+.app-box p {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+}
