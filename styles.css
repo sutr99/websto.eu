@@ -134,3 +134,17 @@ main code {
   padding: 2px 4px;
   border-radius: 3px;
 }
+
+.app-box:hover {
+  text-decoration: none;
+}
+
+.app-box h3,
+.app-box p {
+  text-decoration: none;
+}
+
+.app-box:hover h3,
+.app-box:hover p {
+  text-decoration: none;
+}
