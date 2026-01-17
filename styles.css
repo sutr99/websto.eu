@@ -79,3 +79,58 @@ body {
   font-size: 14px;
   color: #444;
 }
+/* --- ČITELNOST OBSAHU --- */
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+main h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+main h2 {
+  font-size: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 4px;
+}
+
+main p {
+  margin-bottom: 16px;
+  color: #222;
+}
+
+main ul,
+main ol {
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+main li {
+  margin-bottom: 6px;
+}
+
+main a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main strong {
+  font-weight: 600;
+}
+
+main code {
+  font-family: Consolas, monospace;
+  background: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
