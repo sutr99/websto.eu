@@ -180,3 +180,37 @@ footer .container {
   font-size: 14px;
   color: #666;
 }
+
+/* --- HERO MOTTO --- */
+
+.hero {
+  margin: 48px 0 56px 0;
+}
+
+.hero-main {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: #111;
+}
+
+.hero-sub {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+}
+
+/* --- MOBIL --- */
+@media (max-width: 600px) {
+  .hero {
+    margin: 32px 0 40px 0;
+  }
+
+  .hero-main {
+    font-size: 22px;
+  }
+
+  .hero-sub {
+    font-size: 14px;
+  }
+}
