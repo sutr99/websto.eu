@@ -10,16 +10,19 @@ body {
 }
 
 /* ===============================
-   HEADER – STABILNÍ
+   FIXNÍ MENU – MRTVÉ, PEVNÉ
 ================================ */
 
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+
   height: 64px;
   background: #fff;
   border-bottom: 1px solid #e0e0e0;
-  z-index: 100;
+  z-index: 1000;
 }
 
 header .container {
@@ -27,6 +30,7 @@ header .container {
   height: 100%;
   margin: 0 auto;
   padding: 0 24px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,13 +39,13 @@ header .container {
 .logo {
   font-family: Consolas, monospace;
   font-weight: 600;
-  text-decoration: none;
   color: #111;
+  text-decoration: none;
   white-space: nowrap;
 }
 
 /* ===============================
-   MENU – NIKDY SE NEHÝBE
+   MENU – BEZ EFEKTŮ
 ================================ */
 
 nav {
@@ -54,25 +58,27 @@ nav a {
   color: #333;
   text-decoration: none;
   white-space: nowrap;
-  line-height: 1;
-  padding-bottom: 2px;
-  border-bottom: 2px solid transparent;
+
+  /* ŽÁDNÉ EFEKTY */
+  border: none;
+  outline: none;
 }
 
 nav a:hover,
-nav a:focus {
-  border-bottom-color: #333;
+nav a:focus,
+nav a:active {
+  text-decoration: none;
   outline: none;
 }
 
 /* ===============================
-   MAIN
+   POSUN OBSAHU POD MENU
 ================================ */
 
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 40px 24px;
+  padding: 104px 24px 40px; /* 64px menu + mezera */
   line-height: 1.6;
 }
 
@@ -97,7 +103,7 @@ main {
 }
 
 /* ===============================
-   KATALOG APLIKACÍ – FIX
+   KATALOG APLIKACÍ – KLID
 ================================ */
 
 .app-grid {
@@ -113,7 +119,6 @@ main {
   border-radius: 6px;
   color: inherit;
   text-decoration: none;
-  transition: background-color 0.2s, border-color 0.2s;
 }
 
 .app-box:hover {
@@ -123,27 +128,12 @@ main {
 
 /* ZÁKAZ PODTRŽENÍ V BOXECH */
 .app-box,
-.app-box:hover,
-.app-box:focus,
 .app-box * {
   text-decoration: none !important;
-  outline: none;
-}
-
-.app-box h3 {
-  margin: 0 0 8px 0;
-  font-size: 18px;
-  font-family: Consolas, monospace;
-}
-
-.app-box p {
-  margin: 0;
-  font-size: 14px;
-  color: #444;
 }
 
 /* ===============================
-   OBSAH – PODTRŽENÍ JEN TADY
+   OBSAH – PODTRŽENÍ JEN V TEXTU
 ================================ */
 
 main p a {
@@ -191,7 +181,7 @@ footer .container {
 }
 
 /* ===============================
-   MOBIL
+   MOBIL – STEJNÉ, JEN VĚTŠÍ
 ================================ */
 
 @media (max-width: 700px) {
@@ -199,12 +189,12 @@ footer .container {
     height: 72px;
   }
 
-  nav a {
-    font-size: 13px;
+  main {
+    padding-top: 112px;
   }
 
-  .hero {
-    margin: 32px 0 40px 0;
+  nav a {
+    font-size: 13px;
   }
 
   .hero-main {
