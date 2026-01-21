@@ -205,3 +205,9 @@ footer .container {
     font-size: 14px;
   }
 }
+/* --- MOBIL: skrýt logo --- */
+@media (max-width: 700px) {
+  .logo {
+    display: none;
+  }
+}
