@@ -58,8 +58,6 @@ nav a {
   color: #333;
   text-decoration: none;
   white-space: nowrap;
-
-  /* ŽÁDNÉ EFEKTY */
   border: none;
   outline: none;
 }
@@ -78,7 +76,7 @@ nav a:active {
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 104px 24px 40px; /* 64px menu + mezera */
+  padding: 104px 24px 40px;
   line-height: 1.6;
 }
 
@@ -126,7 +124,6 @@ main {
   border-color: #999;
 }
 
-/* ZÁKAZ PODTRŽENÍ V BOXECH */
 .app-box,
 .app-box * {
   text-decoration: none !important;
@@ -181,16 +178,21 @@ footer .container {
 }
 
 /* ===============================
-   MOBIL – STEJNÉ, JEN VĚTŠÍ
+   MOBIL – 1️⃣ MENŠÍ MENU + 2️⃣ CENTROVÁNÍ
 ================================ */
 
 @media (max-width: 700px) {
+
   header {
-    height: 72px;
+    height: 56px;            /* 1️⃣ menší výška */
   }
 
   main {
-    padding-top: 112px;
+    padding-top: 88px;       /* 56px menu + rezerva */
+  }
+
+  nav {
+    justify-content: center; /* 2️⃣ centrované menu */
   }
 
   nav a {
@@ -204,9 +206,7 @@ footer .container {
   .hero-sub {
     font-size: 14px;
   }
-}
-/* --- MOBIL: skrýt logo --- */
-@media (max-width: 700px) {
+
   .logo {
     display: none;
   }
